@@ -1,0 +1,128 @@
+#content {
+	/*width: 980px;*/
+	/*width: 95%;*/
+	width: auto;
+	margin: 0 auto;
+}
+
+.item {
+	display: block;
+	float: left;
+	width: 200px;
+	margin: 0 20px 20px 0;
+	-webkit-transition: left .4s ease-in-out, top .4s ease-in-out .4s;
+	-moz-transition: left .4s ease-in-out, top .4s ease-in-out .4s;
+	-ms-transition: left .4s ease-in-out, top .4s ease-in-out .4s;
+	-o-transition: left .4s ease-in-out, top .4s ease-in-out .4s;
+	transition: left .4s ease-in-out, top .4s ease-in-out .4s;
+}
+
+.item:hover {
+transform: scale(1.05);
+transition: all .5s ease-in-out; 
+}
+
+
+
+.featured {
+	width: 420px;
+}
+
+
+.item img {
+	width: 200px;
+	height: auto;
+}
+
+.featured img {
+  width: 420px;
+  height: auto;
+}
+
+/* Titles */
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: normal;
+  font-size: 2.2em;
+  text-transform: uppercase;
+  color: #000;
+  letter-spacing: .2em;
+  line-height: 0.5;
+  text-align: center;
+  margin: 0;
+  display: inline;
+}
+
+h5{
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 100;
+  color: #000;
+  text-align: center;
+  margin: 0;
+  display: inline;
+}
+
+p{
+font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+    font-size:1.2em;
+  color: #000;
+}
+
+
+header {
+	text-align: center;
+	margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+header:after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 1px;
+  margin: 0.8em auto;
+  background-color: #111;
+}
+
+footer {
+    width:95%;
+ text-align:center;
+    margin-top: 2em;
+}
+
+hr{
+    text-align: center;
+width:50%;    
+}
+
+
+
+
+
+
+
+/* ==|== media queries ======================================================
+   EXAMPLE Media Query for Responsive Design.
+   This example overrides the primary ('mobile first') styles
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
+}
+
+
+
+/* ==|== non-semantic helper classes ========================================
+   Please define your styles before this section.
+   ========================================================================== */
+
+/* For image replacement */
+
+
+
+/* ==|== print styles =======================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
